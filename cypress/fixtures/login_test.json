@@ -1,0 +1,22 @@
+[
+  {
+    "email": "testUser01@test.com",
+    "password": "Test@01",
+    "expected_result": "Successfull"
+  },
+  {
+    "email": "testUser01@test.com",
+    "password": "Abcd@1234",
+    "expected_result": "Failed"
+  },
+  {
+    "email": "Abc@gmail.com",
+    "password": "Test@01",
+    "expected_result": "Failed"
+  },
+  {
+    "email": "Abc@gmail.com",
+    "password": "Abc@1234",
+    "expected_result": "Failed"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "first_name": "John",
+    "last_name": "Doe",
+    "telephone": "1234567890",
+    "password": "Test@123",
+    "confirm_password": "Test@123",
+    "agree_box_checked": true,
+    "expected_result": "Successfull"
+  },
+  {
+    "first_name": "John",
+    "last_name": "Doe",
+    "telephone": "1234567890",
+    "password": "Test@123",
+    "confirm_password": "Test@456",
+    "agree_box_checked": true,
+    "expected_result": "Failed"
+  },
+  {
+    "first_name": "",
+    "last_name": "",
+    "telephone": "",
+    "password": "",
+    "confirm_password": "",
+    "agree_box_checked": true,
+    "expected_result": "Failed"
+  },
+  {
+    "first_name": "John",
+    "last_name": "Doe",
+    "telephone": "1234567890",
+    "password": "Test@123",
+    "confirm_password": "Test@123",
+    "agree_box_checked": false,
+    "expected_result": "Failed"
+  }
+]
